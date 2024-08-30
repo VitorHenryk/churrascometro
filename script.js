@@ -55,9 +55,9 @@ function calcular() {
     //coloca-e o "+" após o sinal de "=" para deixar entendido que preciso imprimir mais de um innerHTML
     resultado.innerHTML = `<h2 class="result-info">Você vai precisar de:</h2>`
     resultado.innerHTML += `
-    <div class= "result-block">
+    <div class="result-block">
     <img src="./assets/carne.svg"/>
-    <p.>${Math.ceil(qdtTotalCarne / 1000)} Kg de Carne</p>
+    <p>${qdtTotalCarne / 1000} Kg de Carne</p>
     </div>
     `
     resultado.innerHTML += `
